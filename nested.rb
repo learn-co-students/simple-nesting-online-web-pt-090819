@@ -17,7 +17,7 @@ def hopper
      }
 
 
-end
+end 
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
@@ -36,9 +36,13 @@ def alan_kay_is_known_for
           :known_for => "Unix",
           :languages => ["C"]
         }
+       
      }
+  end
+  
 end
-
+programmer_hash[:alan_kay][:known_for]
+ 
 def dennis_ritchies_language
 	programmer_hash = 
  		{
